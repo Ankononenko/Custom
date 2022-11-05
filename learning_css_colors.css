@@ -1,0 +1,35 @@
+article {
+  background-color: gray;
+}
+
+article > :nth-child(1),
+article > :nth-child(5),
+article > :nth-child(7),
+article > :nth-child(8) {
+  color: green;
+}
+
+article > :nth-child(2) {
+  color: blue;
+}
+
+article > :nth-child(4) {
+  color: yellow;
+}
+
+article > :nth-child(9) {
+  color: purple;
+}
+
+article > :nth-child(10) {
+  color: pink;
+}
+
+article > :nth-child(3) {
+  text-align: center;
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
